@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolioSana/static/css/main.3a5c1401.css",
-    "main.js": "/portfolioSana/static/js/main.440ef9e4.js",
+    "main.css": "/portfolioSana/static/css/main.fa129f48.css",
+    "main.js": "/portfolioSana/static/js/main.ea14dfea.js",
     "static/js/787.c4e7f8f9.chunk.js": "/portfolioSana/static/js/787.c4e7f8f9.chunk.js",
     "static/media/header-img.svg": "/portfolioSana/static/media/header-img.0207b5bcfb66e112ac4d5bacce1ef935.svg",
+    "static/media/BGvideo.mp4": "/portfolioSana/static/media/BGvideo.ef4c9135a7a0cfbc723f.mp4",
     "static/media/foodsy1.png": "/portfolioSana/static/media/foodsy1.f1cb59346822df251651.png",
     "static/media/foodsy2.png": "/portfolioSana/static/media/foodsy2.c5b8786bd604abd551ba.png",
     "static/media/foodsy3.png": "/portfolioSana/static/media/foodsy3.8bd373d4d01041f64cb6.png",
@@ -13,7 +14,6 @@
     "static/media/yola1.png": "/portfolioSana/static/media/yola1.f3385858dcdfeab00cee.png",
     "static/media/color-sharp2.png": "/portfolioSana/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/yola2.png": "/portfolioSana/static/media/yola2.b98d76008ee8c0fc6ac8.png",
-    "static/media/Universe-background.svg": "/portfolioSana/static/media/Universe-background.44705d979dd2cd8ab282.svg",
     "static/media/project-img1.png": "/portfolioSana/static/media/project-img1.bd48d6343f08f3f86925.png",
     "static/media/project-img2.png": "/portfolioSana/static/media/project-img2.6d3210f4f166534c6f24.png",
     "static/media/CentraNo2-Bold.ttf": "/portfolioSana/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -32,12 +32,12 @@
     "index.html": "/portfolioSana/index.html",
     "static/media/nav-icon1.svg": "/portfolioSana/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/portfolioSana/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.3a5c1401.css.map": "/portfolioSana/static/css/main.3a5c1401.css.map",
-    "main.440ef9e4.js.map": "/portfolioSana/static/js/main.440ef9e4.js.map",
+    "main.fa129f48.css.map": "/portfolioSana/static/css/main.fa129f48.css.map",
+    "main.ea14dfea.js.map": "/portfolioSana/static/js/main.ea14dfea.js.map",
     "787.c4e7f8f9.chunk.js.map": "/portfolioSana/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a5c1401.css",
-    "static/js/main.440ef9e4.js"
+    "static/css/main.fa129f48.css",
+    "static/js/main.ea14dfea.js"
   ]
 }
