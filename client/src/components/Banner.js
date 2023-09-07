@@ -1,9 +1,8 @@
 import React from 'react';
 import { useState, useEffect} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-// import { ArrowRight } from "react-bootstrap-icons";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from "../assets/img/header-img.svg";
+import BGvideo from "../assets/img/BGvideo.mp4";
 
 const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -40,21 +39,36 @@ const Banner = () => {
     }
     return (
         <div>
-            <section className="banner mt-n1" id="home">
-                <Container>
-                    <Row className="align-items-center ">
-                        <Col xs={12} md={6} xl={7}>
-                            <span className="tagline">Welcome to my portfolio!</span>
-                            <h2>{`Hi! I'm SaNa`}<br /><span className="wrap"> {text}</span></h2>
-                            <p>Love to share my work with you!</p>
-                            <button onClick={()=> console.log('connect')}>Let's Connect<ArrowRightCircle color="white"  size={25}/></button>
-                        </Col>
-                        <Col xs={12} md={6} xl={5}>
-                            <img src={headerImg} alt="Header Img"  />  
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
+            <div class="video-background-holder">
+                <div class="video-background-overlay"></div>
+                    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                        <source src={BGvideo} type="video/mp4" />
+                    </video>
+                <div class="video-background-content container h-100">
+                    <div class="d-flex h-100 text-center align-items-center">
+                        <div class="w-100 text-white">
+                            <section className="banner  mt-n1" id="home">
+                                <video playsinline autoplay muted loop  src={BGvideo.mp4} type="video/webm" >
+                                </video>
+                                <Container>
+                                    <Row className="align-items-center ">
+                                        <Col xs={12} md={6} xl={7}>
+                                            <span className="tagline">Welcome to my portfolio!</span>
+                                            <h2>{`Hi! I'm SaNa`}<br /><span className="wrap"> {text}</span></h2>
+                                            <p>Love to share my work with you!</p>
+                                            
+                                        </Col>
+                                        <Col xs={12} md={6} xl={5}>
+                                            <img src={headerImg} alt="Header Img"  />  
+                                        </Col>
+                                    </Row>
+                                </Container>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     )
 }
