@@ -28,6 +28,7 @@ const Contact = () => {
         setButtonText("Sending ...");
         let response = await fetch('https://sanahabil.github.io/portfolioSana/contact', {
             method:"POST",
+            credentials: 'omit',
             headers: {
                 "Content-Type": "application/json;charset=utf-8",
             },
