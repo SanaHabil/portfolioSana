@@ -5,7 +5,7 @@ const nodemailer =require("nodemailer");
 
 const app = express();
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:"https://sanahabil.github.io/portfolioSana",
     credentials:true
 }))
 

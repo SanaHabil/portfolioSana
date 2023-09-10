@@ -26,7 +26,7 @@ const Contact = () => {
     const handelSubmit = async(e) =>{
         e.preventDefault();
         setButtonText("Sending ...");
-        let response = await fetch('https://SanaHabil.github.io/portfolioSana/contact', {
+        let response = await fetch('http://localhost:8000/contact', {
             method:"POST",
             credentials: 'omit',
             headers: {
