@@ -53,7 +53,7 @@ return (
                 <a href="https://www.instagram.com/sansoon82/"><img src={navIcon2} alt="" /></a>
                 <a href="https://github.com/SanaHabil"><img src={navIcon3} alt="" /></a>
             </div>
-            <HashLink to='#connect'>
+            <HashLink to="https://www.linkedin.com/in/sanahabil/">
                 <button className="vvd"><span>Let’s Connect</span></button>
             </HashLink>
             </span>
