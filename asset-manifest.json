@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolioSana/static/css/main.a11b5406.css",
-    "main.js": "/portfolioSana/static/js/main.843121cb.js",
+    "main.js": "/portfolioSana/static/js/main.e08a8664.js",
     "static/js/787.c4e7f8f9.chunk.js": "/portfolioSana/static/js/787.c4e7f8f9.chunk.js",
     "static/media/header-img.svg": "/portfolioSana/static/media/header-img.0207b5bcfb66e112ac4d5bacce1ef935.svg",
     "static/media/BGvideo.mp4": "/portfolioSana/static/media/BGvideo.ef4c9135a7a0cfbc723f.mp4",
@@ -33,11 +33,11 @@
     "static/media/nav-icon1.svg": "/portfolioSana/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/portfolioSana/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.a11b5406.css.map": "/portfolioSana/static/css/main.a11b5406.css.map",
-    "main.843121cb.js.map": "/portfolioSana/static/js/main.843121cb.js.map",
+    "main.e08a8664.js.map": "/portfolioSana/static/js/main.e08a8664.js.map",
     "787.c4e7f8f9.chunk.js.map": "/portfolioSana/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a11b5406.css",
-    "static/js/main.843121cb.js"
+    "static/js/main.e08a8664.js"
   ]
 }
