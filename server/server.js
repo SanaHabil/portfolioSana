@@ -14,7 +14,8 @@ const cookieParser = require('cookie-parser');
 app.use(cookieParser());
 app.use(express.json());
 app.use("/", router);
-app.listen(8000, () => console.log("Server Running"));
+const port = process.env.PORT || 8000;
+app.listen(port, () => console.log("Server Running"));
 console.log(process.env.EMAIL_USER);
 console.log(process.env.EMAIL_PASS);
 
@@ -56,6 +57,7 @@ router.post("/contact", (req, res)=>{
         }
     });
 });
+require('dotenv').config();
 
 
 // require('./config/mongoose.config')
